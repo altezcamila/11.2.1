@@ -1,0 +1,57 @@
+/* Estilos para el título h1 */
+h1 {
+    padding-top: 50px;
+    font-size: 24px; /* Tamaño de fuente */
+    color: #000000; /* Color de texto rojo */
+    text-align: center; /* Centrar el texto */
+    margin-top: 20px; /* Margen superior */
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase; /* Convertir a mayúsculas */
+}
+
+/* Estilos para el formulario de registro */
+#registroForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ff6b6b;
+    border: 1px solid #ff4545;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para las etiquetas de los campos */
+label {
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="date"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ff4545;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Estilos para el botón de envío */
+button[type="submit"] {
+    background-color: #ff4545;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff3030;
+}
